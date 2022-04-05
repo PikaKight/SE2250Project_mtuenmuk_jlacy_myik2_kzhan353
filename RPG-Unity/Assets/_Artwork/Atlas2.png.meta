@@ -1643,6 +1643,12 @@ TextureImporter:
   - first:
       213: 4732874519455108462
     second: Atlas2_546
+  - first:
+      213: 7274112371202232130
+    second: Kight_Sword
+  - first:
+      213: 846199386564281755
+    second: ogre
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -6623,8 +6629,8 @@ TextureImporter:
         y: 336
         width: 16
         height: 16
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13226,6 +13232,48 @@ TextureImporter:
       bones: []
       spriteID: e6d8e92bc4c8ea140800000000000000
       internalID: 4732874519455108462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kight_Sword
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 465
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f88c569a6d2f460800000000000000
+      internalID: 7274112371202232130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ogre
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 160
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b954155dbdd4ebb00800000000000000
+      internalID: 846199386564281755
       vertices: []
       indices: 
       edges: []

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4803096643793843101}
   m_Layer: 0
   m_Name: Ogre
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,10 +71,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1230999483
+  m_SortingLayerID: 1740013663
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3124417569305801657, guid: e066694bec9ddd04c9eb77c8ba7e4ad8, type: 3}
+  m_Sprite: {fileID: 846199386564281755, guid: e066694bec9ddd04c9eb77c8ba7e4ad8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: 0
   direction: 0
-  speed: 0.2
+  speed: 1.5
 --- !u!61 &4803096643793843089
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -113,18 +113,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.003826201, y: 0.026783168}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.26}
+    oldSize: {x: 1.25, y: 1.625}
     newSize: {x: 0.2, y: 0.26}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.26}
+  m_Size: {x: 1.133588, y: 1.5532488}
   m_EdgeRadius: 0
 --- !u!50 &4803096643793843101
 Rigidbody2D:

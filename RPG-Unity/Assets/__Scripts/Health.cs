@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    public int health;
+    public static int health;
     public Image[] hearts;
 
     // Start is called before the first frame update
