@@ -19,4 +19,8 @@ public class MainMenu : MonoBehaviour
         PlayGame();
         player.GetComponent<SpriteRenderer>().sprite = character;
     }
+
+    public void quit(){
+        Application.Quit();
+    }
 }
